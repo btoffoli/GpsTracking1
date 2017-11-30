@@ -149,8 +149,8 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.C
         //mapView.setUseDataConnection(false); //keeps the mapView from loading online tiles using network connection.
         mapView.setTileSource(TileSourceFactory.DEFAULT_TILE_SOURCE);
 
-        MyLocationNewOverlay oMapLocationOverlay = new MyLocationNewOverlay(getApplicationContext(), mapView);
-        oMapLocationOverlay.dr
+//        MyLocationNewOverlay oMapLocationOverlay = new MyLocationNewOverlay(getApplicationContext(), mapView);
+        MyLocationNewOverlay oMapLocationOverlay = new BtoffoliLocationOverlay(getApplicationContext(), mapView);
         mapView.getOverlays().add(oMapLocationOverlay);
         oMapLocationOverlay.enableFollowLocation();
         oMapLocationOverlay.enableMyLocation();
