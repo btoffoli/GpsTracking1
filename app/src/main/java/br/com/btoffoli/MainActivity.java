@@ -1,4 +1,4 @@
-package az.osmdroidprop;
+package br.com.btoffoli;
 
 import android.Manifest;
 import android.content.pm.PackageManager;

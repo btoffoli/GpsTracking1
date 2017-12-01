@@ -1,4 +1,4 @@
-package az.osmdroidprop;
+package br.com.btoffoli;
 
 import org.junit.Test;
 
